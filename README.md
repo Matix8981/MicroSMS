@@ -3,6 +3,7 @@ UnOfficial API Class for MicroSMS payments
 
 ## Requirements
 * PHP 5.6+
+* Guzzle (Composer)
 
 ### Composer
 
