@@ -1,5 +1,5 @@
 # MicroSMS-API
-UnOffical API Class for MicroSMS payments
+UnOfficial API Class for MicroSMS payments
 
 ## Requirements
 * PHP 5.6+
