@@ -1,0 +1,22 @@
+{
+    "name": "matix8981/microsms-api",
+    "description": "UnOfficial API Class for MicroSMS payments",
+    "type": "library",
+    "require": {
+        "php": "^5.6 || ^7.3",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "license": "free",
+    "authors": [
+        {
+            "name": "Mateusz Woźnowski",
+            "email": "biuro@devlogic.pl"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+          "MicroSMS-API": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
