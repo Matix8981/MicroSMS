@@ -26,11 +26,10 @@ require "vendor/autoload.php";
 try
 {
 	$api = new MicroSMS-API("userID");
-  $api->checkSMS(array(
-    "serviceid" => "serviceID",
-    "code" =>	"SMSCODE",
+	$api->checkSMS(array(
+	    "serviceid" => "serviceID",
+	    "code" =>	"SMSCODE",
 	));
-	
 }
 catch(Exception $error)
 {
