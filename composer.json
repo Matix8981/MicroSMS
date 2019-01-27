@@ -1,5 +1,5 @@
 {
-    "name": "Matix8981/Payments/MicroSMS",
+    "name": "matix8981/payments/microsms",
     "description": "UnOfficial API Class for MicroSMS payments",
     "keywords": ["microsms", "sms", "payments", "sms premium"],
     "require": {
