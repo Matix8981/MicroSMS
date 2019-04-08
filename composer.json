@@ -17,6 +17,5 @@
         "psr-0": {
           "Matix8981/Payments/MicroSMS\\": "src/"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
