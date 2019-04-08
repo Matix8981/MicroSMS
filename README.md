@@ -11,7 +11,7 @@ Inside of `composer.json` specify the following:
 ``` json
 {
   "require": {
-    "matix8981/microsms_api": "dev-master"
+    "matix8981/microsms": "dev-master"
   }
 }
 ```
@@ -29,7 +29,7 @@ Inside of `composer.json` specify the following:
 
     try
     {
-        $api = new Matix8981\Payments\MicroSMS\SMS($settings["clientID"], $settings["serviceID"]);
+        $api = new Matix8981\MicroSMS\SMS($settings["clientID"], $settings["serviceID"]);
         /**
          * Example return
          * array(2) { ["connect"]=> bool(true) ["data"]=> array(6) { ["status"]=> int(1) ["used"]=> NULL ["service"]=> string(4) "6205" ["number"]=> string(5) "92550" ["phone"]=> string(11) "48123456789" ["reply"]=> string(69) "Twoj kod dostepu to: XYZ. Dziekujemy za zakupy w naszym sklepie." } } 
@@ -60,7 +60,7 @@ Inside of `composer.json` specify the following:
 
     try
     {
-        $api = new Matix8981\Payments\MicroSMS\SMS($settings["clientID"], $settings["serviceID"]);
+        $api = new Matix8981\MicroSMS\SMS($settings["clientID"], $settings["serviceID"]);
         /**
          * Example return
          * array(2) { ["connect"]=> bool(true) ["data"]=> array(5) { ["status"]=> int(1) ["service"]=> string(4) "6205" ["number"]=> string(5) "92550" ["phone"]=> string(11) "48123456789" ["reply"]=> string(69) "Twoj kod dostepu to: XYZ. Dziekujemy za zakupy w naszym sklepie." } }
