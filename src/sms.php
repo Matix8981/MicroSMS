@@ -6,7 +6,7 @@
      * @license https://opensource.org/licenses/MIT The MIT License
      * @version 1.0.0
      */
-    namespace Matix8981\Payments\MicroSMS;
+    namespace Matix8981\MicroSMS;
     class SMS
     {
         /**
