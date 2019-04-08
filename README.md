@@ -4,6 +4,9 @@ UnOfficial API Class for MicroSMS payments
 ## Requirements
 * PHP 5.6+
 
+## TODO
+* Przelewy internetowe
+
 ### Composer
 ```composer require matix8981/microsms```
 
