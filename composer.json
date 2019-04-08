@@ -18,5 +18,5 @@
           "Matix8981/Payments/MicroSMS\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev-master"
 }
