@@ -5,6 +5,7 @@ UnOfficial API Class for MicroSMS payments
 * PHP 5.6+
 
 ### Composer
+```composer require matix8981/microsms```
 
 Inside of `composer.json` specify the following:
 
