@@ -19,6 +19,7 @@ Inside of `composer.json` specify the following:
 ### Simple usage for SMS Premium Payment
 *Checking the SMS code on many numbers*
 ``` php
+<?php
     require_once("vendor/autoload.php");
     $settings =
     [
@@ -49,6 +50,7 @@ Inside of `composer.json` specify the following:
 
 *Checking the SMS code on single number*
 ``` php
+<?php
     require_once("vendor/autoload.php");
     $settings =
     [
