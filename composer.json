@@ -2,7 +2,6 @@
     "name": "matix8981/microsms",
     "description": "UnOfficial API Class for MicroSMS payments",
     "keywords": ["microsms", "sms", "payments", "sms premium"],
-    "type": "library",
     "require": {
         "php": ">=5.6"
     },
@@ -15,7 +14,7 @@
     ],
     "autoload": {
         "psr-4": {
-          "Matix8981\\MicroSMS\\": "src/"
+          "Matix8981\\MicroSMS\\": "src"
         }
     }
 }
