@@ -15,7 +15,7 @@
     ],
     "autoload": {
         "psr-4": {
-          "Matix8981/MicroSMS\\": "src/"
+          "Matix8981\\MicroSMS\\": "src/"
         }
     }
 }
